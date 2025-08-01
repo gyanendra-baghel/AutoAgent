@@ -36,22 +36,6 @@ A modern React frontend for the AI Conversion Assistant, built with Vite, TypeSc
    - The frontend expects the backend to be running on `http://localhost:8000`
    - See `../backend/README.md` for backend setup instructions
 
-## Project Structure
-
-```
-frontend/
-├── src/
-│   ├── components/
-│   │   ├── ChatMessage.tsx    # Individual chat message component
-│   │   └── ChatInput.tsx      # Message input component
-│   ├── types/
-│   │   └── chat.ts            # TypeScript type definitions
-│   ├── App.tsx               # Main application component
-│   └── main.tsx              # Application entry point
-├── package.json
-└── README.md
-```
-
 ## Available Scripts
 
 - `npm run dev` - Start development server

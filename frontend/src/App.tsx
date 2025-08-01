@@ -9,6 +9,8 @@ import type {
 } from "./types/chat";
 import { Bot } from "lucide-react";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 const App = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -64,9 +66,7 @@ Try asking me:
 
     try {
       const response = await fetch(
-        `http://localhost:8000/api/v1/convert?query=${encodeURIComponent(
-          content
-        )}`
+        `${API_URL}/api/v1/convert?query=${encodeURIComponent(content)}`
       );
 
       if (!response.ok) {

@@ -13,30 +13,6 @@ A FastAPI backend service for AI-powered unit conversions using Google Gemini.
 - RESTful API with OpenAPI documentation
 - CORS enabled for frontend integration
 
-## Project Structure
-
-```
-backend/
-├── app/
-│   ├── __init__.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   └── routes.py          # API endpoints
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── config.py          # Configuration settings
-│   │   ├── models.py          # Data models
-│   │   └── agent.py           # AI Agent logic
-│   └── tools/
-│       ├── __init__.py
-│       ├── conversion_tools.py # Conversion tools
-│       └── search_tools.py     # Web search tools
-├── main.py                    # FastAPI application
-├── pyproject.toml            # Project dependencies
-├── .env.example              # Environment variables template
-└── README.md                 # This file
-```
-
 ## Setup
 
 1. **Install dependencies:**
